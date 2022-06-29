@@ -1,0 +1,17 @@
+{
+  "name": "interactgmx",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "leveargeTrade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9"
+  }
+}
