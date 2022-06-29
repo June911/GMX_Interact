@@ -87,11 +87,6 @@ async function swap(signer, amountIn) {
 // execute a swap
 async function main() {
     let amountIn = ethers.utils.parseEther("0.001", "eth");
-    console.log(`amountIn: ${amountIn}`);
-    // let amountIn = ethers.utils.parseUnits("100", 6);
-    // let amountIn = "1000000000000";
-    // console.log(amountIn.lt(ethers.utils.parseEther("0.2", "eth")));
-    // getSwapAmount(amountIn)
     swap(signer, amountIn);
 }
 
